@@ -2,7 +2,7 @@
 # Copyright (C) 2010 Ilkka Laukkanen <ilkka.laukkanen@gmail.com>
 # Licence: GPLv3 or later
 
-import TalkGen, Utils, Task, Configure, Logs
+import TaskGen, Utils, Task, Configure, Logs
 
 def scala_build(task):
     """Builder method for Scala programs"""
