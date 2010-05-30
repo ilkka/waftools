@@ -1,3 +1,7 @@
+# DocBook XML Tool for waf
+# Copyright (C) 2010 Ilkka Laukkanen <ilkka.laukkanen@gmail.com>
+# Licence: GPLv3 or later
+
 import TaskGen, Utils, Task, Configure
 import Logs
 
