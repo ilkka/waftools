@@ -23,6 +23,7 @@ class scala_taskgen(TaskGen.task_gen):
 @TaskGen.feature('scala')
 def apply_scalac(self):
     """Apply the Scala compiler"""
+    Logs.debug('in apply_scalac')
     self.source = getattr(self, 'source', None)
     Logs.debug('apply_scalac, sources {0}'.format(self.source))
     for filename in self.to_list(self.source):
