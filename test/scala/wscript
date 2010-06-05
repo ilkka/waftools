@@ -1,0 +1,16 @@
+# -*- python -*-
+# encoding: utf-8
+import sys, os
+
+top = '.'
+out = 'build'
+
+def set_options(opt):
+    pass
+
+def configure(conf):
+    conf.check_tool('scala', tooldir=os.getcwd())
+
+def build(bld):
+    bld(features='scala test',
+        input='HelloWorld.scala')

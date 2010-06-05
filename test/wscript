@@ -1,0 +1,11 @@
+# -*- python -*-
+# encoding: utf-8
+
+def set_options(opt):
+    opt.sub_options('scala')
+
+def configure(conf):
+    conf.sub_config('scala')
+
+def build(bld):
+    bld.add_subdirs('scala')
