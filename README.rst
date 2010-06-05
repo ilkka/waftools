@@ -9,11 +9,11 @@
 Usage
 =====
 
-To use in a waf project with git, go
+To use in a waf project with git, go::
 
   $ git submodule add git://github.com/ilkka/waftools.git tasks
 
-and in your wscript, add
+and in your wscript, add::
 
   ...
   import os
